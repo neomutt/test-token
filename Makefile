@@ -41,6 +41,8 @@ clean:
 	$(RM) $(OBJ) $(OUT)
 
 test:	$(OUT) force
-	-./$(OUT) "apple banana cherry"
+	-./$(OUT) \
+		"apple banana cherry" \
+		"apple banana # cherry"
 
 force:
