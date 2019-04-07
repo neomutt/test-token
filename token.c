@@ -3,18 +3,10 @@
 #include "mutt/mutt.h"
 #include "config/lib.h"
 #include "token.h"
+#include "filter.h"
 #include "myvar.h"
 #include "vars.h"
-#include "filter.h"
 
-/**
- * mutt_extract_token - Extract one token from a string
- * @param dest  Buffer for the result
- * @param tok   Buffer containing tokens
- * @param flags Flags, see #TokenFlags
- * @retval  0 Success
- * @retval -1 Error
- */
 int mutt_extract_token(struct Buffer *dest, struct Buffer *tok, TokenFlags flags)
 {
   if (!dest || !tok)
@@ -252,4 +244,3 @@ int mutt_extract_token(struct Buffer *dest, struct Buffer *tok, TokenFlags flags
   SKIPWS(tok->dptr);
   return 0;
 }
-
