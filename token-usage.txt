@@ -1,0 +1,64 @@
+do_uncolor             MUTT_TOKEN_NO_FLAGS
+eat_date               MUTT_TOKEN_COMMENT | MUTT_TOKEN_PATTERN
+eat_query              MUTT_TOKEN_COMMENT | MUTT_TOKEN_PATTERN
+eat_regex              MUTT_TOKEN_COMMENT | MUTT_TOKEN_PATTERN
+icmd_bind              MUTT_TOKEN_NO_FLAGS
+km_error_key           MUTT_TOKEN_CONDENSE
+mutt_expando_format    MUTT_TOKEN_NO_FLAGS
+mutt_lua_source_file   MUTT_TOKEN_NO_FLAGS
+mutt_parse_bind        MUTT_TOKEN_NO_FLAGS
+mutt_parse_exec        MUTT_TOKEN_NO_FLAGS
+mutt_parse_hook        MUTT_TOKEN_NO_FLAGS
+mutt_parse_icommand    MUTT_TOKEN_NO_FLAGS
+mutt_parse_macro       MUTT_TOKEN_CONDENSE
+mutt_parse_rc_line     MUTT_TOKEN_NO_FLAGS
+mutt_parse_score       MUTT_TOKEN_NO_FLAGS
+mutt_parse_unbind      MUTT_TOKEN_NO_FLAGS
+mutt_parse_unhook      MUTT_TOKEN_NO_FLAGS
+mutt_parse_unscore     MUTT_TOKEN_NO_FLAGS
+parse_alias            MUTT_TOKEN_NO_FLAGS
+parse_alias            MUTT_TOKEN_QUOTE | MUTT_TOKEN_SEMICOLON | MUTT_TOKEN_SPACE
+parse_alternates       MUTT_TOKEN_NO_FLAGS
+parse_attachments      MUTT_TOKEN_NO_FLAGS
+parse_attach_list      MUTT_TOKEN_NO_FLAGS
+parse_attr_spec        MUTT_TOKEN_NO_FLAGS
+parse_color            MUTT_TOKEN_NO_FLAGS
+parse_color_pair       MUTT_TOKEN_NO_FLAGS
+parse_echo             MUTT_TOKEN_NO_FLAGS
+parse_group            MUTT_TOKEN_NO_FLAGS
+parse_grouplist        MUTT_TOKEN_NO_FLAGS
+parse_ifdef            MUTT_TOKEN_NO_FLAGS
+parse_ifdef            MUTT_TOKEN_SPACE
+parse_ignore           MUTT_TOKEN_NO_FLAGS
+parse_keymap           MUTT_TOKEN_NO_FLAGS
+parse_lists            MUTT_TOKEN_NO_FLAGS
+parse_mailboxes        MUTT_TOKEN_NO_FLAGS
+parse_my_hdr           MUTT_TOKEN_QUOTE | MUTT_TOKEN_SPACE
+parse_object           MUTT_TOKEN_NO_FLAGS
+parse_path_list        MUTT_TOKEN_NO_FLAGS
+parse_path_unlist      MUTT_TOKEN_NO_FLAGS
+parse_replace_list     MUTT_TOKEN_NO_FLAGS
+parse_set              MUTT_TOKEN_BACKTICK_VARS
+parse_set              MUTT_TOKEN_EQUAL | MUTT_TOKEN_QUESTION
+parse_setenv           MUTT_TOKEN_EQUAL
+parse_setenv           MUTT_TOKEN_NO_FLAGS
+parse_source           MUTT_TOKEN_NO_FLAGS
+parse_spam_list        MUTT_TOKEN_NO_FLAGS
+parse_stailq           MUTT_TOKEN_NO_FLAGS
+parse_subscribe        MUTT_TOKEN_NO_FLAGS
+parse_subscribe_to     MUTT_TOKEN_NO_FLAGS
+parse_tag_formats      MUTT_TOKEN_NO_FLAGS
+parse_tag_transforms   MUTT_TOKEN_NO_FLAGS
+parse_unalias          MUTT_TOKEN_NO_FLAGS
+parse_unalternates     MUTT_TOKEN_NO_FLAGS
+parse_unattachments    MUTT_TOKEN_NO_FLAGS
+parse_unattach_list    MUTT_TOKEN_NO_FLAGS
+parse_uncolor          MUTT_TOKEN_NO_FLAGS
+parse_unignore         MUTT_TOKEN_NO_FLAGS
+parse_unlists          MUTT_TOKEN_NO_FLAGS
+parse_unmailboxes      MUTT_TOKEN_NO_FLAGS
+parse_unmy_hdr         MUTT_TOKEN_NO_FLAGS
+parse_unreplace_list   MUTT_TOKEN_NO_FLAGS
+parse_unstailq         MUTT_TOKEN_NO_FLAGS
+parse_unsubscribe      MUTT_TOKEN_NO_FLAGS
+parse_unsubscribe_from MUTT_TOKEN_NO_FLAGS
